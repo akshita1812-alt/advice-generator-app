@@ -7,7 +7,7 @@ function Container({handleClick, advice}) {
     return (
       <div className={style.container}>
         <div className={style.mainContainer}>
-          <p>Advice #{advice.slip.id}</p>
+          <p>Advice #{advice.id}</p>
           <h1 className={style.quotes}>
             {advice.advice}   </h1>
           <span className={style.border}></span>
