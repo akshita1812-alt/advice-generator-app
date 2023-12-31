@@ -10,7 +10,7 @@ function App() {
    const res =await fetch(apiUrl)
    const data = await res.json()
     console.log(data)
-   setAdvice(data)
+   setAdvice(data.slip)
   }
 useEffect(() => {
   handleClick()
