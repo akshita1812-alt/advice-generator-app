@@ -9,7 +9,7 @@ function App() {
   const handleClick = async() =>{
    const res =await fetch(apiUrl)
    const data = await res.json()
-    // console.log(data)
+    console.log(data)
    setAdvice(data)
   }
 useEffect(() => {
