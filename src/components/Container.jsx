@@ -7,9 +7,9 @@ function Container({handleClick, advice}) {
     return (
       <div className={style.container}>
         <div className={style.mainContainer}>
-          <p>Advice #{advice.slip.id}</p>
+          <p>Advice #{advice.id}</p>
           <h1 className={style.quotes}>
-            {advice.slip.advice}   </h1>
+            {advice.advice}   </h1>
           <span className={style.border}></span>
         </div>
         <button className={style.dice} onClick={handleClick}>
